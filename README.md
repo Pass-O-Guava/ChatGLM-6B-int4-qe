@@ -45,10 +45,12 @@ chatglm-6b-int4-qe/
 ## 2. Test: 
 ### I. txt2img
 
+```shell
 python demo.py
 python cli_demo.py
 python web_demo.py
 python web_demo2.py
+```
 
 ```shell
 Q: 以下是一段销售场景对话：您好张三女士，我是ABC银行北京营业厅的经理李四，工号是123456，根据监管部门要求，我行将对投资理财类产品销售实施录音录像，您购买的产品是我行代销的EFG公司的某某信托计划，产品的风险等级为R3等级，风险水平为中等风险，您确认吗。确认。......
