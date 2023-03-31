@@ -14,11 +14,15 @@ pip install transformers==4.26.1 icetk==0.0.5 cpm-kernels==1.0.11 protobuf==3.19
 mkdir chatGLM_6B
 cd chatGLM_6B
 
+# Huggingface (3G)
 sudo apt-get install git-lfs
 git init
 git lfs install
 git clone https://huggingface.co/THUDM/chatglm-6b-int4-qe
-## download: 3G
+
+# Baidunetdisk (3G)
+链接: https://pan.baidu.com/s/1D_-ZHWcyCrkwXus5FmuK1g?pwd=m2si
+提取码: m2si 
 
 conda activate stablediffusion
 pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
